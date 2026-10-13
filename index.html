@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hosakota Venkata Naga Tharun · AI Engineer (Generative AI, agents, RAG)</title>
+    <meta
+      name="description"
+      content="AI Engineer designing and building production AI applications with LLMs, multi-agent systems, and RAG on Azure OpenAI, Azure AI Foundry Agents, LangGraph, and Workato."
+    />
+    <meta name="author" content="Hosakota Venkata Naga Tharun" />
+    <meta name="theme-color" content="#F4F6F8" />
+    <meta name="robots" content="index, follow" />
+
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content="Hosakota Venkata Naga Tharun · AI Engineer" />
+    <meta
+      property="og:description"
+      content="Production AI applications with LLMs, multi-agent systems, and RAG, engineered with validation, monitoring, and root-cause analysis."
+    />
+    <meta property="og:image" content="/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Hosakota Venkata Naga Tharun, AI Engineer" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Hosakota Venkata Naga Tharun · AI Engineer" />
+    <meta name="twitter:image" content="/og-image.png" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="preload" as="image" href="/portrait-720.webp" type="image/webp" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Hosakota Venkata Naga Tharun",
+        "jobTitle": "AI Engineer",
+        "email": "mailto:tharunhosakota@gmail.com",
+        "worksFor": { "@type": "Organization", "name": "Mouri Tech Pvt Ltd" },
+        "alumniOf": { "@type": "CollegeOrUniversity", "name": "Jawaharlal Nehru Technological University Anantapur (JNTUA)" },
+        "sameAs": ["https://www.linkedin.com/in/hosakota-venkata-naga-tharun"],
+        "knowsAbout": ["Generative AI", "AI Agents", "Multi-Agent Systems", "RAG", "LangGraph", "Azure OpenAI", "Workato"]
+      }
+    </script>
+
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem("theme");
+          var theme =
+            stored === "light" || stored === "dark"
+              ? stored
+              : window.matchMedia("(prefers-color-scheme: dark)").matches
+                ? "dark"
+                : "light";
+          var root = document.documentElement;
+          if (theme === "dark") root.classList.add("dark");
+          root.style.colorScheme = theme;
+          var meta = document.querySelector('meta[name="theme-color"]');
+          if (meta) meta.setAttribute("content", theme === "dark" ? "#0E1620" : "#F4F6F8");
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <p style="padding: 1rem; font-family: sans-serif">
+        Hosakota Venkata Naga Tharun, AI Engineer. Email: tharunhosakota@gmail.com. Resume:
+        <a href="/Tharun_AI_Engineer_Resume.pdf">Tharun_AI_Engineer_Resume.pdf</a>
+      </p>
+    </noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

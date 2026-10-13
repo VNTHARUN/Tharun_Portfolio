@@ -1,0 +1,8 @@
+node_modules
+dist
+.DS_Store
+*.local
+.vite
+
+/Warm Office Portrait of a Smiling Professional.png
+/Tharun_AI_Engineer_Resume.pdf
