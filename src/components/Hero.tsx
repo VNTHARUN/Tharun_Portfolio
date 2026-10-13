@@ -3,6 +3,8 @@ import { Button } from "@/components/ui/button";
 import { Container } from "@/components/shared";
 import { experience, person } from "@/content/portfolio";
 
+const BASE = import.meta.env.BASE_URL;
+
 export function Hero() {
   return (
     <section id="top" aria-labelledby="hero-title" className="pb-10 pt-8 sm:pb-12 sm:pt-10">
@@ -10,8 +12,8 @@ export function Hero() {
         <div className="max-w-[46rem]">
           <div className="flex flex-col items-start gap-6 sm:flex-row sm:items-center sm:gap-8">
             <img
-              src="/portrait-720.webp"
-              srcSet="/portrait-720.webp 720w, /portrait.webp 1145w"
+              src={`${BASE}portrait-720.webp`}
+              srcSet={`${BASE}portrait-720.webp 720w, ${BASE}portrait.webp 1145w`}
               sizes="(min-width: 640px) 160px, 128px"
               width={1145}
               height={1374}

@@ -41,4 +41,4 @@ src/index.css              design tokens and Semantic UI overrides
 - Every demo is offline and hard-coded, and shows: “Illustrative simulation of the idea. Not the production system and no client data.”
 - Only `semantic-ui-css/components/label.min.css` is imported. Never import `semantic.min.css`.
 - Live flows loop while they are on screen. With reduced motion they still step through, without the moving parts.
-- Before deploying, replace the relative `og:image` URL in `index.html` with an absolute URL on your domain so link previews work.
+- Deployed to GitHub Pages at https://vntharun.github.io/Tharun_Portfolio/ by `.github/workflows/deploy.yml` on every push to `main`. The base path is set in `vite.config.ts`; if the repo is renamed, update it there and in the `og:url`, `og:image`, `twitter:image`, and canonical tags in `index.html`.

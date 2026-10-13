@@ -10,7 +10,7 @@ export const person = {
     linkedin: "https://www.linkedin.com/in/hosakota-venkata-naga-tharun",
     github: "" /* TODO: add after publishing a repo */,
   },
-  resumePdf: "/Tharun_AI_Engineer_Resume.pdf",
+  resumePdf: `${import.meta.env.BASE_URL}Tharun_AI_Engineer_Resume.pdf`,
 };
 
 export const experience = {
