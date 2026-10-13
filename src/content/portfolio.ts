@@ -17,6 +17,17 @@ export const experience = {
   company: "Mouri Tech Pvt Ltd",
   role: "Applied AI Engineer",
   dates: "March 2024 - Present",
+  years: "2.5+",
+  summary:
+    "Building AI-powered applications with Python, FastAPI, Azure AI services, and large language models, from RAG pipelines to multi-agent workflows.",
+  highlights: [
+    { title: "RAG and vector search", detail: "RAG pipelines, vector search, and enterprise AI applications." },
+    { title: "Agentic workflows", detail: "Multi-agent workflows with Semantic Kernel and ADK for autonomous task execution and orchestration." },
+    { title: "Backend and APIs", detail: "Scalable services and REST APIs on FastAPI and Azure Functions for real-time AI inference." },
+    { title: "Large language models", detail: "Azure OpenAI, LLaMA, Gemini, and Hugging Face models for conversational AI and automation." },
+    { title: "Build, test, deploy", detail: "Git, GitHub Actions, Databricks, Postman, VS Code, and Node.js." },
+    { title: "Team delivery", detail: "Problem-solving with cross-functional teams on enterprise-grade AI and cloud solutions." },
+  ],
 };
 
 export const projects = [
@@ -146,19 +157,21 @@ export const skills = {
     "Prompt Engineering",
     "RAG",
     "Hybrid Search",
+    "Embeddings",
+    "Document Processing",
     "NLP",
   ],
+  "LLMs and models": ["Azure OpenAI", "LLaMA", "Gemini", "Hugging Face"],
   "Agent and LLM frameworks": ["LangGraph", "LangChain", "Semantic Kernel", "Google ADK"],
   Retrieval: ["FAISS", "BM25", "Cross-Encoder Reranking", "Vector Databases"],
   Cloud: [
-    "Azure OpenAI",
     "Azure AI Foundry Agents",
     "Azure Functions",
     "Azure Identity/AD",
     "Application Insights",
     "Databricks",
   ],
-  "Backend and data": ["Python", "FastAPI", "REST APIs", "PostgreSQL", "Cosmos DB"],
+  "Backend and data": ["Python", "FastAPI", "REST APIs", "Node.js", "PostgreSQL", "Cosmos DB"],
   "Automation and tooling": [
     "Workato",
     "Playwright",
@@ -172,6 +185,16 @@ export const skills = {
     "GitHub Copilot",
     "Cursor",
   ],
+};
+
+export const skillNotes: Record<keyof typeof skills, string> = {
+  "Generative AI": "Agentic AI, RAG architecture, prompt engineering, embeddings, and NLP for enterprise AI applications.",
+  "LLMs and models": "Conversational AI and intelligent automation across hosted and open models.",
+  "Agent and LLM frameworks": "Multi-agent orchestration for autonomous task execution.",
+  Retrieval: "Vector and keyword search with reranking for retrieval pipelines.",
+  Cloud: "Azure services for serverless AI inference, identity, and monitoring.",
+  "Backend and data": "Scalable backend services and REST APIs for real-time AI inference.",
+  "Automation and tooling": "Workflow automation, testing, CI/CD, and deployment.",
 };
 
 export const education = {
